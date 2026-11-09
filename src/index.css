@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #0F172A;
+    --color-primary-foreground: #FFFFFF;
+    --color-accent: #EA580C;
+    --color-accent-hover: #C2410C;
+    --color-background: #F8FAFC;
+    --color-foreground: #0F172A;
+    --color-card: #FFFFFF;
+    --color-border: #E2E8F0;
+    --color-ring: #EA580C;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: 'Plus Jakarta Sans', Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+@layer utilities {
+  /* High visibility focus states for keyboard accessibility */
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2;
+  }
+}
