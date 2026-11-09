@@ -2,6 +2,10 @@
 
 > **"Built to Protect. Designed to Last."**  
 > A complete, production-ready website template and commercial payment infrastructure built for US residential roofing contractors using **Whop Websites, Whop Payments, Whop Payment Elements, and the Whop API**.
+>
+> 🌐 **Live Website**: [https://summit-roofing-app.whop.site](https://summit-roofing-app.whop.site)  
+> ⚡ **Whop App ID**: `app_yELvblKjXh4KQW`  
+> 🏢 **Whop Business ID**: `biz_qScvAn5mHB28cK`
 
 ---
 

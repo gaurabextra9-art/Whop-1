@@ -1,10 +1,12 @@
 import { defineConfig } from "vite";
+import { cloudflare } from "@cloudflare/vite-plugin";
 import react from "@vitejs/plugin-react";
 import { whop } from "@whop/cli/vite";
 import app from "./server/index";
 
 export default defineConfig({
   plugins: [
+    cloudflare({ viteEnvironment: { name: "ssr" } }),
     react(),
     whop(),
     {
@@ -28,8 +30,4 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  build: {
-    outDir: "dist/client",
-  },
 });
-
