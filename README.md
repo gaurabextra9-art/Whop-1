@@ -288,3 +288,4 @@ To adapt this template for another roofing contractor:
 ## 13. License
 
 Commercial website template developed for Whop. All rights reserved.
+

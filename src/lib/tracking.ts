@@ -94,3 +94,4 @@ export function trackDepositStarted(checkoutAttemptId: string): boolean {
     currency: "USD",
   });
 }
+

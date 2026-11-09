@@ -82,3 +82,4 @@ export const Financing: React.FC<FinancingProps> = ({ onExploreCheckout, onReque
     </section>
   );
 };
+

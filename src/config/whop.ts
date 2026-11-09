@@ -78,3 +78,4 @@ export const whopConfig = {
     DEPOSIT_STARTED: "deposit_started",
   },
 };
+
